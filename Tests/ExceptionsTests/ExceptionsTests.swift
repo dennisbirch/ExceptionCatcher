@@ -1,12 +1,11 @@
 import XCTest
-@testable import Exceptions
+@testable import ExceptionCatcher
 
-final class ExceptionsTests: XCTestCase {
+final class ExceptionCatcherTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(Exceptions().text, "Hello, World!")
     }
 
     static var allTests = [
